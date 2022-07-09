@@ -1,0 +1,61 @@
+html {
+  background-color: tomato;
+}
+h1 {
+  color: yellowgreen;
+  font-style: italic;
+  font-size: 50px;
+}
+body {
+  align-items: center;
+}
+
+div {
+  padding: 20px;
+}
+#first {
+  background-color: wheat;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+
+  border: 2px solid black;
+}
+#second {
+  background-color: teal;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  margin-left: -39px;
+  margin-top: -150px;
+  border: 4px solid white;
+}
+#third {
+  background-color: teal;
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -145px;
+  margin-top: 75px;
+
+  border: 4px dashed white;
+}
+#fourth {
+  background-color: teal;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -39px;
+  margin-top: 70px;
+  border: 4px solid white;
+}
