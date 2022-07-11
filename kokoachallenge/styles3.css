@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-color: whitesmoke;
+  font-family: serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+article {
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+div {
+  width: 180px;
+  height: 360px;
+  background-color: tomato;
+  border: 5px solid white;
+  display: flex;
+}
+div > div {
+  height: 80px;
+  background-color: white;
+  position: relative;
+  top: 20px;
+  border: none;
+}
+
+article > div:nth-child(2) {
+  background-color: teal;
+}
+section > article:nth-child(2) > div:first-child {
+  background-color: burlywood;
+}
+section > article:nth-child(2) > div:nth-child(2) {
+  background-color: thistle;
+}
